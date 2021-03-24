@@ -1,3 +1,5 @@
+server:
+  port: 8081
 spring:
   application:
     name: MicroserviceA
@@ -15,3 +17,8 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.SQLServer2012Dialect
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
