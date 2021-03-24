@@ -2,11 +2,11 @@ server:
   port: 8081
 spring:
   application:
-    name: MicroserviceAFromGit
+    name: MicroserviceA
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost:1433;databaseName=lerna;
-    username: dbadmin
+    username: dbadminFromGit
     password: P@ssword
   jpa:
     hibernate:
