@@ -6,7 +6,7 @@ spring:
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost:1433;databaseName=lerna;
-    username: dbadminFromGit
+    username: dbadmin
     password: P@ssword
   jpa:
     hibernate:
@@ -22,3 +22,5 @@ management:
     health:
       enabled: true
       show-details: always
+my:
+  message: Message from config server
