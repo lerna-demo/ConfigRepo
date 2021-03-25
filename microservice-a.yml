@@ -25,3 +25,4 @@ management:
 custom:
   configuration:
     source: microservice-a.yml on Config Server
+    crossorigin: http://localhost:3000
