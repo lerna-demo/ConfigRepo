@@ -23,4 +23,4 @@ management:
       enabled: true
       show-details: always
 my:
-  message: Message from config server
+  message: Message from config server1
