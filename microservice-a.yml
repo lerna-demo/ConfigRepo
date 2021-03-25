@@ -22,5 +22,6 @@ management:
     health:
       enabled: true
       show-details: always
-my:
-  message: Message from config server1
+custom:
+  configuration:
+    source: microservice-a.yml on Config Server
