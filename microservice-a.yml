@@ -1,8 +1,6 @@
 server:
   port: 8081
 spring:
-  application:
-    name: microservice-a
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
     url: jdbc:sqlserver://localhost:1433;databaseName=lerna;
