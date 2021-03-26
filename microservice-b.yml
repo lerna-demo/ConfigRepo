@@ -24,6 +24,6 @@ management:
       show-details: always
 custom:
   configuration:
-    source: microservice-a.yml on Config Server
+    source: microservice-b.yml on Config Server
     crossorigin: http://localhost:3000
     
