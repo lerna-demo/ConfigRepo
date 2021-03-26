@@ -1,0 +1,3 @@
+services:
+  servicea: http://localhost:8081/servicea
+  serviceb: http://localhost:8082/serviceb
