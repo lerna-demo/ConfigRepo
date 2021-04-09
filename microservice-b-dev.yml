@@ -1,1 +1,29 @@
 #file is still empty waitin for the dev environment
+server:
+  port: 8080
+  servlet:
+    context-path: /serviceb
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://lerna-non-prod-rds.cvm36p68vz1v.us-east-1.rds.amazonaws.com:1433;databaseName=lerna;
+    username: dbadmin
+    password: P@ssword
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      show-sql: true
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+management:
+  endpoint:
+    health:
+      enabled: true
+      show-details: always
+custom:
+  configuration:
+    source: microservice-b.yml on Config Server
+    crossorigin: http://localhost:3000
