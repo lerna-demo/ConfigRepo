@@ -26,4 +26,6 @@ management:
 custom:
   configuration:
     source: microservice-b.yml on Config Server
-    crossorigin: http://localhost:3000
+    crossorigin: 
+      urls: http://localhost:3000,http://dev.lerna.ca
+      methods: HEAD,GET,POST,PUT,DELETE,PATCH
