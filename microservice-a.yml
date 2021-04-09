@@ -25,4 +25,4 @@ management:
 custom:
   configuration:
     source: microservice-a.yml on Config Server
-    crossorigin: http://localhost:3000, http://dev.lerna.ca
+    crossorigin: http://localhost:300, http://dev.lerna.ca
